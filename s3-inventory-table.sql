@@ -1,3 +1,10 @@
+## Format - CSV
+## Columns:
+#  - Size
+#  - Last modified
+#  - Storage class
+
+
 CREATE EXTERNAL TABLE `{inventory_bucket_name}`(
   `bucket` string COMMENT 'from deserializer', 
   `key` string COMMENT 'from deserializer', 
